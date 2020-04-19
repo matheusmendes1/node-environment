@@ -44,7 +44,7 @@ In the prettier config, we say that we want to use single quotes, we want to use
 
 ## Credits and sources
 
-* I learned and learn a lot with the [Rocketseat Team] https://rocketseat.com.br/
+* I learned and learn a lot with the [Rocketseat Team](https://rocketseat.com.br/)
 
 * [Typescript Reference](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
