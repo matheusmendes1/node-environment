@@ -26,4 +26,26 @@ Remember: the settings are customizable, and here are some of my choices. You ca
 
 * '--ignore-watch node_modules': will ignore the files in node_modules when it comes to watching files
 
-* Executing "yarn dev: server" will upload the server following the settings of the variable
+* Executing "yarn dev: server" will put the server online following the settings of the variable
+
+###### About prettier.config.js
+
+In the prettier config, we say that we want to use single quotes, we want to use a comma whenever we add new elements, parameters or properties to the JavaScript code. Finally, we want to avoid parentheses whenever possible (useful for arrow functions)
+
+###### About ts.config.json
+
+* outDir will tell you where the files go after being transpiled
+
+* rootDir will tell you where the files come from (which will be transpiled)
+
+* strictPropertyInitialization: ensure non-undefined class properties are initialized in the constructor. This option requires --strictNullChecks be enabled in order to take effect.
+
+* experimentalDecorators and emitDecoratorsMetadata will enable decorators for our project. It is useful when creating models, for example.
+
+## Credits and sources
+
+I learned and learn a lot with the [Rocketseat Team] https://rocketseat.com.br/
+
+* [Typescript Reference] https://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+* [ Mozilla developer Refence] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas
