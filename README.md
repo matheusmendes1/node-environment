@@ -8,12 +8,12 @@ Remember: the settings are customizable, and here are some of my choices. You ca
 
 ## Prerequisites
 
-* (Optional) Yarn
 * NodeJS
 * VSCode
 * EditorConfig extension for VSCode
 * ESLint extension for VSCode
 * Prettier extension for VSCode
+* (Optional) Yarn
 * Execute "yarn add" or "npm i" to install dependencies
 
 ## Some considerations
@@ -44,8 +44,8 @@ In the prettier config, we say that we want to use single quotes, we want to use
 
 ## Credits and sources
 
-I learned and learn a lot with the [Rocketseat Team] https://rocketseat.com.br/
+* I learned and learn a lot with the [Rocketseat Team] https://rocketseat.com.br/
 
-* [Typescript Reference] https://www.typescriptlang.org/docs/handbook/compiler-options.html
+* [Typescript Reference](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
-* [ Mozilla developer Refence] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas
+* [ Mozilla developer Refence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas)
