@@ -8,15 +8,17 @@ Remember: the settings are customizable, and here are some of my choices. You ca
 
 ## Prerequisites
 
+* (Optional) Yarn
 * NodeJS
 * VSCode
 * EditorConfig extension for VSCode
 * ESLint extension for VSCode
 * Prettier extension for VSCode
+* Execute "yarn add" or "npm i" to install dependencies
 
 ## Some considerations
 
-## About package.json
+###### About package.json
 
 * '--transpileOnly': as your project becomes bigger, compilation time increases linearly. It's because typescript's semantic checker has to inspect all files on every rebuild. The simple solution is to disable it by using the transpileOnly: true option, but doing so leaves you without type checking and will not output declaration files.
 
